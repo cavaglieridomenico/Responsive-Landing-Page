@@ -1,0 +1,93 @@
+.scene {
+    width: 360px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 0 20px;
+}
+
+.scene-1 {
+    height: 525px;
+    background:rgb(15, 209, 199)
+}
+
+.logo-sports {
+    /*width: 99px;*/
+    height: 150px;
+    padding-top: 22px;
+}
+
+.container-text {
+    height: 220px;
+}
+
+.title {
+    width: 320px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.title-scene-1 {
+    height: 119px;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+}
+
+.text {
+    width: 320px;
+    height: auto;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.text-scene-1 {
+    height: 70px;
+    padding: 0 3px;
+}  
+
+.buttons-download {
+    height: 155px;
+}
+
+.scene-2 {
+    height: 475px;
+    background-image: none;
+}
+
+.blue-text {
+    width: 320px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #00ADEE;
+}
+
+.blue-text-1-scene-2 {
+    height: 108px;
+    padding-top: 55px;
+}
+
+.container-text-scene-2 {
+    height: 290px;
+    background-color: yellow;
+}
+
+.title-scene-2 {
+    height: 74px;
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.blue-text-2-scene-2 {
+    width: 320px;
+    height: 70px;
+    padding-top: 32px;
+}
+
+

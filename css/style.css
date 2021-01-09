@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Latoscreen and (max-width: 480px):wght@400;700&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #333333;
 }
 
 .relative {
@@ -34,9 +39,12 @@
     align-items: flex-end;
 }
 
-.scene-1 {
+.scene {
     flex-direction: column;
     width: 1440px;
+}
+
+.scene-1 {
     height: 665px;
     padding: 0 0 0 163px;
     background: /*#F4F6F9;*/yellow;
@@ -60,8 +68,6 @@
 .title {
     width: 546px;
     height: 96px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -75,8 +81,6 @@
 .text {
     width: 453px;
     height: 52px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
@@ -94,6 +98,69 @@
     width: 145.69px;
     height: 44px;
 }
+
+.scene-2 {
+    height: 592px;
+    background-color: #ffffff;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.box-1-scene-2-desk {
+    background-image: url(../svg/back-scene-2.svg);
+    overflow: hidden;
+    width: 720px;
+    height: 592px;
+    border: solid 1px black;
+}
+
+.blue-text {
+    width: 320px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #00ADEE;
+}
+
+.blue-text-1-scene-2 {
+    height: 108px;
+    padding-top: 55px;
+}
+
+.title {
+    width: 546px;
+    height: 96px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: #333333;
+    background-color: violet;
+}
+
+.container-text-scene-2 {
+    height: 290px;
+    background-color: yellow;
+}
+
+.title-scene-2 {
+    height: 74px;
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.blue-text-2-scene-2 {
+    width: 320px;
+    height: 70px;
+    padding-top: 32px;
+}
+
+
+
+
 
 
 
