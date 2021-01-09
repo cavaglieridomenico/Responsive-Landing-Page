@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    position: relative;
+}
+
+.row-wrap-center {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#scene-1 {
+    align-items: center;
+    padding: 0 20px;
+    width: 360px;
+    height: 525px;
+    background: #F4F6F9;
+}
+
+#logo-sports {
+width: 99px;
+height: 32px;
+}
+
+.title {
+width: 320px;
+height: 119px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 40px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+letter-spacing: 0.03em;
+color: #333333;
+}
+
+.text {
+width: 320px;
+height: 70px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+text-align: center;
+color: #4F4F4F;
+padding: 0 1px;
+}
+
+
+
+
+
+
