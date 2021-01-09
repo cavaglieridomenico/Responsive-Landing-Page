@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Latoscreen and (max-width: 480px):wght@400;700&display=swap');
+ 
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,9 +14,12 @@
     position: relative;
 }
 
-.row-wrap-center {
-    flex-flow: row wrap;
-    justify-content: center;
+.column {
+    flex-direction: column;
+}
+
+.row-wrap {
+    flex-flow: row wrap;    
 }
 
 .justify-between {
@@ -31,9 +34,59 @@
     align-items: flex-end;
 }
 
+.scene-1 {
+    flex-direction: column;
+    width: 1440px;
+    height: 665px;
+    padding: 0 0 0 163px;
+    background: /*#F4F6F9;*/yellow;
+    background-position: right;
+    background-image: url(../svg/back-scene-1.svg);
+    background-repeat: no-repeat;
+}
+
+.logo-sports {
+    width: 99px;
+    height: 238px;
+    padding-top: 55px;
+    }
+
+.container-text {
+    width: 550px;
+    height: 180px;
+    background-color: aliceblue;
+}
+
+.title {
+    width: 546px;
+    height: 96px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: #333333;
+    background-color: violet;
+}
+
+.text {
+    width: 453px;
+    height: 52px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+    background-color: yellowgreen;
+    }
+
 .buttons-download {
     width: 320px;
-    height: 155px;
+    height: 270px;
     padding-bottom: 59px;
 }
 
@@ -42,50 +95,8 @@
     height: 44px;
 }
 
-#scene-1 {
-    padding: 0 20px 0 20px;
-    width: 360px;
-    height: 525px;
-    background:#F4F6F9;/*rgb(15, 209, 199)*/
-}
 
-#logo-sports {
-width: 99px;
-height: 150px;
-padding-top: 22px;
-}
 
-.container-text {
-    height: 220px;
-}
-
-.title {
-width: 320px;
-height: 119px;
-font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 40px;
-display: flex;
-align-items: flex-end;
-text-align: center;
-letter-spacing: 0.03em;
-color: #333333;
-}
-
-.text {
-width: 320px;
-height: 70px;
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 23px;
-text-align: center;
-color: #4F4F4F;
-padding: 0 3px;
-}
 
 
 
