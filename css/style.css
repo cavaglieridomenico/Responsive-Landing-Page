@@ -23,21 +23,40 @@
     justify-content: space-between;
 }
 
+.align-start {
+    align-content: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
 .buttons-download {
     width: 320px;
+    height: 155px;
+    padding-bottom: 59px;
+}
+
+.btn-single {
+    width: 145.69px;
+    height: 44px;
 }
 
 #scene-1 {
-    align-items: center;
-    padding: 0 20px;
+    padding: 0 20px 0 20px;
     width: 360px;
     height: 525px;
-    background: #F4F6F9;
+    background:#F4F6F9;/*rgb(15, 209, 199)*/
 }
 
 #logo-sports {
 width: 99px;
-height: 32px;
+height: 150px;
+padding-top: 22px;
+}
+
+.container-text {
+    height: 220px;
 }
 
 .title {
