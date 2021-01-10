@@ -39,35 +39,32 @@ body {
     align-items: flex-end;
 }
 
-.scene {
-    flex-direction: column;
-    width: 1440px;
-}
-
 .scene-1 {
+    width: 1440px;
     height: 665px;
-    padding: 0 0 0 163px;
     background: /*#F4F6F9;*/yellow;
     background-position: right;
     background-image: url(../svg/back-scene-1.svg);
     background-repeat: no-repeat;
 }
 
-.logo-sports {
-    width: 99px;
-    height: 238px;
-    padding-top: 55px;
-    }
-
-.container-text {
-    width: 550px;
-    height: 180px;
-    background-color: aliceblue;
+.box-scene-1 {
+    width: 545px;
+    height: 100%;
+    margin-left: 105px;
 }
 
-.title {
+.logo-sports {
+    width: 99px;
+    height: 32px;
+    margin-top: 61px;
+}
+
+.title-scene-1 {
     width: 546px;
     height: 96px;
+    font-family: Lato;
+    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -75,43 +72,50 @@ body {
     align-items: flex-end;
     letter-spacing: 0.03em;
     color: #333333;
-    background-color: violet;
+    background-color: blueviolet;
+    margin-top: 133px;
 }
 
-.text {
+.text-scene-1 {
     width: 453px;
     height: 52px;
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #4F4F4F;
+    margin-top: 30px;
     background-color: yellowgreen;
-    }
+}
 
 .buttons-download {
-    width: 320px;
-    height: 270px;
-    padding-bottom: 59px;
+    width: 348px;
+    height: 47px;
+    margin-top: 50px;
 }
 
 .btn-single {
     width: 145.69px;
-    height: 44px;
+    height: 47px;
 }
 
 .scene-2 {
+    display: flex;
     height: 592px;
     background-color: #ffffff;
-    background-position: left;
-    background-repeat: no-repeat;
 }
 
-.box-1-scene-2-desk {
+.box-left-scene-2 {
     background-image: url(../svg/back-scene-2.svg);
     overflow: hidden;
     width: 720px;
     height: 592px;
     border: solid 1px black;
+}
+
+.box-text-scene-2 {
+    flex-flow: row wrap;
+    width: 720px;
+    height: 592px;
 }
 
 .blue-text {
@@ -128,20 +132,8 @@ body {
     padding-top: 55px;
 }
 
-.title {
-    width: 546px;
-    height: 96px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.03em;
-    color: #333333;
-    background-color: violet;
-}
-
 .container-text-scene-2 {
+    width: 720px;
     height: 290px;
     background-color: yellow;
 }
@@ -150,6 +142,10 @@ body {
     height: 74px;
     font-size: 28px;
     line-height: 37px;
+}
+
+.text-scene-2 {
+
 }
 
 .blue-text-2-scene-2 {
