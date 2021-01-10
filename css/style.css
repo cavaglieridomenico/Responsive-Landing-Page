@@ -44,7 +44,7 @@ body {
     height: 665px;
     background: /*#F4F6F9;*/yellow;
     background-position: right;
-    background-image: url(../svg/back-scene-1.svg);
+    background-image: url(../images/back-scene-1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -107,9 +107,31 @@ body {
 .box-left-scene-2 {
     width: 805px;
     height: 100%;
-    background-image: url(../svg/filter-scene-2.svg), url(../svg/back-scene-2.svg);
+    background-image: url(../svg/filter-scene-2.svg), url(../images/back-scene-2.jpg);
 
     border: solid 1px black;
+}
+
+.image-down-scene-2{
+    background-image: url(../images/image-down-scene.jpg);
+    background-size: cover;
+    width: 360px;
+    height: 209px;
+    margin-top: 296px;
+    margin-left: 269px;
+    box-shadow:  -5px 2.5px 8.57175px #5a5c5f,
+     -6.73495px 19.5926px 24.4907px #555252;
+    filter: drop-shadow(-22.0416px 23.8785px 48.9814px rgba(68, 66, 66, 0.5));
+}
+
+.image-up-scene-2 {
+    position: absolute;
+    background-image: url(../svg/image-up-scene.svg);
+    background-position: top right;
+    width: 470px;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 80px;
 }
 
 .box-text-scene-2 {
