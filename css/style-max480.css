@@ -121,4 +121,12 @@
     margin-left: -30px;
 }
 
+/*The style of scene 3 is almost the same as that of scene 2*/
+
+.scene-3
+.box-text-scene-2 {
+    height: 420px; 
+    margin-left: 20px; 
+
+}
 
