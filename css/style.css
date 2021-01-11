@@ -194,15 +194,18 @@ body {
     display: none;
 }
 
-.scene-1 {
+/*The style of scene 3 is almost the same as that of scene 2*/
+.scene-3 {
     width: 1440px;
-    height: 665px;
-    background: /*#F4F6F9;*/yellow;
-    background-position: right;
-    background-image: url(../images/back-scene-1.jpg);
-    background-repeat: no-repeat;
+    height: 716px;
+    /*background: #F4F6F9;yellow*/;
+    background-image: url(../images/back-scene-3.jpg);
 }
 
+.scene-3
+.box-text-scene-2 {
+    margin-left: 162px;    
+}
 
 
 
