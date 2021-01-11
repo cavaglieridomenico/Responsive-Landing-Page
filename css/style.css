@@ -104,15 +104,13 @@ body {
     background-color: #ffffff;
 }
 
-.box-left-scene-2 {
+.box-left-scene-2-desktop {
     width: 805px;
     height: 100%;
     background-image: url(../svg/filter-scene-2.svg), url(../images/back-scene-2.jpg);
-
-    border: solid 1px black;
 }
 
-.image-down-scene-2{
+.image-down-scene-2-desktop {
     background-image: url(../images/image-down-scene.jpg);
     background-size: cover;
     width: 360px;
@@ -124,7 +122,7 @@ body {
     filter: drop-shadow(-22.0416px 23.8785px 48.9814px rgba(68, 66, 66, 0.5));
 }
 
-.image-up-scene-2 {
+.image-up-scene-2-desktop {
     position: absolute;
     background-image: url(../svg/image-up-scene.svg);
     background-position: top right;
@@ -191,6 +189,21 @@ body {
 
     margin-top: 22px;
 }
+
+.box-2-scene-2-max480 {
+    display: none;
+}
+
+.scene-1 {
+    width: 1440px;
+    height: 665px;
+    background: /*#F4F6F9;*/yellow;
+    background-position: right;
+    background-image: url(../images/back-scene-1.jpg);
+    background-repeat: no-repeat;
+}
+
+
 
 
 
