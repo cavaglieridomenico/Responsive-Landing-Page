@@ -270,7 +270,7 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     width: 360px;
-    height: 400px;
+    height: 465px;
 }
 
 .title-scene-5 {
@@ -291,18 +291,6 @@ body {
     margin-top: 39px;
 }
 
-/*.box-scene-5 {
-    align-items:baseline;
-}*/
-
-#box-1-scene-5,
-#box-2-scene-5,
-#box-4-scene-5,
-#box-5-scene-5,
-.btn-left-scene-5 {
-    display: none;
-}
-
 .btn-right-scene-5 {
     background-image: url(../svg/btn.right-scene-5.svg);
     position: absolute;
@@ -314,7 +302,86 @@ body {
     background-position: left;
 }
 
+#box-1-scene-5,
+#box-2-scene-5,
+#box-4-scene-5,
+#box-5-scene-5,
+.btn-left-scene-5 {
+    display: none;
+}
+
 .box-bottom-scene-5 {
     margin-top: 33px;
 }
+
+.scene-6 {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:flex-start;
+    width: 360px;
+    height: 409px;
+    background: #FAFAFA;
+}
+
+.title-scene-6 {
+    margin-top: auto;
+}
+
+.box-scene-6 {
+    display: none;
+}
+
+.img-1-scene-6-max480 {
+    display: flex;
+    width: 147px;
+    height: 49px;
+    background-image: url(../svg/img-1-scene-6-max480.svg);
+    margin-right: 70px;
+    margin-top: auto;
+}
+.img-2-scene-6-max480 {
+    display: flex;
+    width: 102px;
+    height: 49px;
+    background-image: url(../svg/img-2-scene-6-max480.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: auto;
+}
+.img-3-scene-6-max480 {
+    display: flex;
+    align-self: flex-start;
+    width: 100px;
+    height: 58px;
+    background-image: url(../svg/img-3-scene-6-max480.svg);
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+.img-4-scene-6-max480 {
+    display: flex;
+    width: 150px;
+    height: 58px;
+    background-image: url(../svg/img-4-scene-6-max480.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-top: 0;
+}
+
+.img-5-scene-6-max480 {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/img-5-scena-6-max480.jpg);
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
+.img-6-scene-6-max480 {
+    display: flex;
+    width: 210px;
+    height: 34px;
+    background-image: url(../svg/img-6-scene-6-max480.svg);
+    margin-left: 10px;
+}
+
 

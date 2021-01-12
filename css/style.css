@@ -438,9 +438,47 @@ body {
     background-position: left;
 }
 
+.scene-6 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1440px;
+    height: 278px;
+    background: #FAFAFA;
+}
 
+.title-scene-6 {
+    width: 320px;
+    height: 37px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 51px;
+}
 
+.box-scene-6 {
+    width: max-content;
+    height: max-content;
+    margin-top: 58px;
+}
 
+.sponsor-scene-6 {
+    background-image: url(../svg/box-scene-6.svg);
+    width: 1081px;
+    height: 58px;   
+}
+
+.img-1-scene-6-max480,
+.img-2-scene-6-max480,
+.img-3-scene-6-max480,
+.img-4-scene-6-max480,
+.img-5-scene-6-max480,
+.img-6-scene-6-max480 {
+    display: none;
+}
 
 
 
