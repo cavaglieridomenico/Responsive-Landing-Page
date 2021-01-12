@@ -201,9 +201,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 311px;
     height: auto;
     margin-top: 50px;
+}
+
+#box-2-scene-4,
+#box-5-scene-4,
+#box-8-scene-4 {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .icon-box-scene-4 {
