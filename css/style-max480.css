@@ -394,4 +394,43 @@ body {
     margin: 40px 0 0 10px;
 }
 
+.scene-7 {
+    width: 360px;
+    height: 436px;
+    background-image: none;
+}
+
+.box-scene-7 {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+}
+
+.title-scene-7 {
+    width: 320px;
+    height: 74px;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+.text-scene-7 {
+    width: 309.03px;
+    height: auto;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #4F4F4F;
+    margin-top: 15px;
+}
+
+.buttons-download {
+    width: 320px;
+    margin-top: 37px;
+}
+
+
 

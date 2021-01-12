@@ -485,6 +485,58 @@ body {
     display: none;
 }
 
+.scene-7 {
+    width: 1440px;
+    height: 483px;
+    background: #F4F6F9;
+    background-position: left;
+    background-image: url(../svg/back-scene-7.svg);
+    background-repeat: no-repeat;
+}
+
+.box-scene-7 {
+    width: 546px;
+    height: 100%;
+    margin-left: 743px;
+}
+
+.title-scene-7 {
+    width: 554px;
+    height: 37px;
+    left: 743px;
+    top: 3522px;
+    font-size: 28px;
+    line-height: 37px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-top: 100px;
+}
+
+.text-scene-7 {
+    width: 535px;
+    height: 125px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #4F4F4F;
+    margin-top: 30px;
+}
+
+.buttons-download {
+    width: 348px;
+    height: 47px;
+    margin-top: 38px;
+}
+
+.btn-single {
+    width: 145.69px;
+    height: 47px;
+}
 
 
 
