@@ -265,3 +265,56 @@ body {
 .text-box-scene-4 p::before {
     content: none;
 }
+
+.scene-5 {
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 360px;
+    height: 400px;
+}
+
+.title-scene-5 {
+    width: 252px;
+    height: 37px;
+    margin-top: 0;
+    margin-top: 119px;
+}
+
+.title-scene-5 span {
+    margin-left: 0;
+}
+
+.box-full-scene-5 {
+    width: 309px;
+    height: 161px;
+    margin-right: 0;
+    margin-top: 39px;
+}
+
+/*.box-scene-5 {
+    align-items:baseline;
+}*/
+
+#box-1-scene-5,
+#box-2-scene-5,
+#box-4-scene-5,
+#box-5-scene-5,
+.btn-left-scene-5 {
+    display: none;
+}
+
+.btn-right-scene-5 {
+    background-image: url(../svg/btn.right-scene-5.svg);
+    position: absolute;
+    background-position: left;
+    width: 60px;
+    height: 70px;
+    left: 300px;
+    top: 245px;
+    background-position: left;
+}
+
+.box-bottom-scene-5 {
+    margin-top: 33px;
+}
+
