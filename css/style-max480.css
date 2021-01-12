@@ -315,20 +315,30 @@ body {
 }
 
 .scene-6 {
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items:flex-start;
     width: 360px;
     height: 409px;
     background: #FAFAFA;
 }
 
 .title-scene-6 {
-    margin-top: auto;
+    margin-top: 57px;
 }
 
 .box-scene-6 {
     display: none;
+}
+
+.container-1-scena-6,
+.container-2-scena-6 {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    height: max-content;
+    margin-top: 43px;
+}
+
+.container-2-scena-6 {
+    margin-top: 20px;
 }
 
 .img-1-scene-6-max480 {
@@ -381,7 +391,7 @@ body {
     width: 210px;
     height: 34px;
     background-image: url(../svg/img-6-scene-6-max480.svg);
-    margin-left: 10px;
+    margin: 40px 0 0 10px;
 }
 
 

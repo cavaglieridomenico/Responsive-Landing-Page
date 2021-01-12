@@ -471,6 +471,11 @@ body {
     height: 58px;   
 }
 
+.container-1-scena-6,
+.container-2-scena-6 {
+    display: none;
+}
+
 .img-1-scene-6-max480,
 .img-2-scene-6-max480,
 .img-3-scene-6-max480,
