@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100%;
+    width: 100%; 
     font-family: 'Lato', sans-serif;
     font-style: normal;
     color: #333333;
@@ -24,17 +24,22 @@ body {
     flex-direction: column;
 }
 
+.row-wrap {
+    flex-flow: row wrap;    
+}
+
 .justify-between {
     justify-content: space-between;
 }
 
-a:link,
-a:visited {
-    text-decoration: none;
-    color: inherit;
-    outline: 0;
+.align-start {
+    align-content: flex-start;
 }
-/*
+
+.items-end {
+    align-items: flex-end;
+}
+
 aside {
     position: fixed;
     z-index: 2;
@@ -91,11 +96,9 @@ aside:hover {
     background-image: url(../svg/button-aside.svg);
     margin-top: 14px;
 }
-*/
-
 
 .scene-1 {
-    width: 100%;
+    width: 100%; 
     height: 665px;
     background: #F4F6F9;
     background-position: right;
@@ -105,29 +108,36 @@ aside:hover {
 
 .box-scene-1 {
     width: 100%;
+    max-width: 700px;
     height: 100%;
     margin-left: 163px;
 }
 
 .logo-sports {
-    width: 100%;
-    height: auto;
+    width: 99px;
+    height: 32px;
     margin-top: 61px;
 }
 
 .title-scene-1 {
-    width: 546px;
+    width: 100%;
+    max-width: 600px;
     height: 96px;
+    font-family: Lato;
+    font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
+    display: flex;
+    align-items: flex-end;
     letter-spacing: 0.03em;
+    color: #333333;
     margin-top: 133px;
 }
 
 .text-scene-1 {
-    width: 453px;
-    height: 52px;
+    width: 100%;
+    max-width: 600px;
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
@@ -146,7 +156,7 @@ aside:hover {
 }
 
 .scene-2 {
-    width: 100%;
+    width: 100%; 
     height: 592px;
     background-color: #ffffff;
 }
@@ -180,12 +190,14 @@ aside:hover {
 }
 
 .box-text-scene-2 {
-    width: 426px;
+    width: 100%; 
+    max-width: 800px;
+    margin-left: 200px;
     height: 100%;
 }
 
 .blue-text-1-scene-2 {
-    width: 100%;
+    width: 100%; 
     height: 22px;
     font-weight: bold;
     font-size: 16px;
@@ -196,9 +208,8 @@ aside:hover {
 }
 
 .title-scene-2 {
-    width: 426px;
+    width: 100%; 
     height: 37px;
-
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
@@ -210,7 +221,7 @@ aside:hover {
 }
 
 .text-scene-2 {
-    width: 407px;
+    width: 100%; 
     height: 185px;
     font-family: Lato;
     font-style: normal;
@@ -223,7 +234,7 @@ aside:hover {
 }
 
 .blue-text-2-scene-2 {
-    width: 582px;
+    width: 100%; 
     height: 22px;
     font-family: Lato;
     font-style: normal;
@@ -240,7 +251,7 @@ aside:hover {
 }
 
 .scene-3 {
-    width: 1440px;
+    width: 100%;
     height: 716px;
     background-image: url(../images/back-scene-3.jpg);
 }
@@ -309,13 +320,12 @@ aside:hover {
 .scene-4 {
     flex-flow: row wrap;
     background-image: url(../images/back-scene-4.jpg);
-    width: 1440px;
+    width: 100%;
     height: 735px;
-    /*padding: 76px 0 0 164px;*/
+    
 }
 
 .title-scene-4 {
-    justify-content: center;
     width: 100%;
     height: 37px;
     font-family: Lato;
@@ -324,18 +334,11 @@ aside:hover {
     font-size: 28px;
     line-height: 37px;
     color: #FFFFFF;
-    margin: 76px 0 54px;
-    /*padding-left: 301px;*/
+    margin-bottom: 54px;
+    
 }
 
-.container-scene-4 {
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-
-}
-
-/*.box-scene-4 {
+.box-scene-4 {
     width: 311px;
     height: 189px;
 }
@@ -345,7 +348,7 @@ aside:hover {
 #box-8-scene-4 {
     margin-left: 100px;
     margin-right: 80px;
-}*/
+}
 
 .icon-box-scene-4 {
     width: 40px;
@@ -405,7 +408,8 @@ aside:hover {
 }
 
 .scene-5 {
-    width: 1440px;
+    flex-flow: row wrap;
+    width: 100%;
     height: 431px;
 }
 
@@ -426,29 +430,21 @@ aside:hover {
     margin-left: 10px;
 }
 
-.container-scene-5 {
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    margin-top: 63px;
-}
-
 .box-full-scene-5 {
     width: 309px;
     height: 161px;
-    /*margin-right: 36px;*/
+    margin-right: 36px;
 }
 
-/*.box-scene-5 {
+.box-scene-5 {
     align-items:baseline;
-}*/
+}
 
 #box-1-scene-5 {
-    width: 132px;
+    width: 134px;
     height: 161px;
     background-image: url(../svg/box-1-scene-5.svg);
-    background-position: right;
-    /*margin-right: 36px;*/
+    margin-right: 36px;
 }
 
 #box-2-scene-5 {
@@ -464,39 +460,15 @@ aside:hover {
 }
 
 #box-5-scene-5 {
-    width: 235px;
+    width: 180px;
     height: 161px;
     background-image: url(../svg/box-5-scene-5.svg);
-    background-position: left;
-}
-
-.container-btn-scene-5 {
-    position: absolute;
-    justify-content: space-between;
-    width: 100%;
-    height: auto;
-    top: 50px;
-    padding: 0 90px;
-}
-
-.btn-left-scene-5 {
-    background-image: url(../svg/btn-left-scene-5.svg);
-    width: 70px;
-    height: 70px;
-    background-position: left;
-}
-
-.btn-right-scene-5 {
-    background-image: url(../svg/btn.right-scene-5.svg);
-    width: 70px;
-    height: 70px;
-    background-position: left;
 }
 
 .box-bottom-scene-5 {
     justify-content: center;
     width: 100%;
-    height: 11px;
+    height: auto;
 }
 
 .bullet-scene-5 {
@@ -504,7 +476,27 @@ aside:hover {
     width: 143px;
     height: 11px;
     margin-left: 20px;
-    margin-top: 50px;
+}
+
+.btn-left-scene-5 {
+    background-image: url(../svg/btn-left-scene-5.svg);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 90px;
+    top: 215px;
+    background-position: left;
+
+}
+
+.btn-right-scene-5 {
+    background-image: url(../svg/btn.right-scene-5.svg);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1270px;
+    top: 210px;
+    background-position: left;
 }
 
 .scene-6 {
