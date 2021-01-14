@@ -527,7 +527,7 @@ footer
     margin-top: 0;
 }
 
-.list-footer {
+.navbar-footer {
     justify-content: space-between;
     width: 390px;
     height: 22px;
@@ -538,6 +538,17 @@ footer
     font-size: 16px;
     line-height: 21px;
     color: #FFFFFF;
+}
+
+.navbar-footer
+li {
+    transform: scale(1); 
+    transition: all 0.2s 0s ease-in-out;   
+}
+
+.navbar-footer
+li:hover {
+    transform: scale(1.05); 
 }
 
 .social-footer {
@@ -554,15 +565,15 @@ footer
 }
 
 .icon-tweetter-footer {
-    background-image: url(../icon/icon-twitter.svg);
+    background-image: url(../svg/icon-twitter.svg);
 }
 
 .icon-facebook-footer {
-    background-image: url(../icon/icon-facebook.svg);
+    background-image: url(../svg/icon-facebook.svg);
 }
 
 .icon-instagram-footer {
-    background-image: url(../icon/icon-instagram.svg);
+    background-image: url(../svg/icon-instagram.svg);
 }
 
 
