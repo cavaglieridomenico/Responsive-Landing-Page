@@ -4,11 +4,24 @@
     margin: 0;
 }
 
+@media screen and (min-width: 2050px) {
+    .scene-1,
+    .scene-2,
+    .scene-3,
+    .scene-7 { 
+         justify-content: center;      
+    }
+    .box-scene-7 {
+        margin-left: 50px !important;
+    }
+}
+
 body {
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     color: #333333;
+    min-width: 360px;
 }
 
 .relative {
@@ -34,65 +47,6 @@ a:visited {
     color: inherit;
     outline: 0;
 }
-/*
-aside {
-    position: fixed;
-    z-index: 2;
-    width: 767px;
-    height: 499px;
-    top: 0;
-    right: 0;
-    background-color: black;
-    background-image: url(../svg/back-aside-filter-2.svg), url(../svg/back-aside-filter-1.svg), url(../images/back-aside.jpg);
-    scale: 0.3;
-    transform-origin: right top;
-    transition: all 0.8s 0.1s ease-in-out; 
-}
-
-aside:hover {
-    transform: scale(3);
-}
-
-.box-aside {
-    width: 546px;
-    height: 100%;
-    margin-left: 58px;
-}
-
-.title-aside {
-    display: flex;
-    align-items: flex-end;
-    width: 499px;
-    height: 96px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 48px;
-    color: #000000;
-    margin-top: 220px;
-}
-
-.text-aside {
-    width: 554px;
-    height: 70px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
-    color: #333333;
-    margin-top: 9px;
-}
-
-.button-aside {
-    width: 116.56px;
-    height: 35px;
-    background-image: url(../svg/button-aside.svg);
-    margin-top: 14px;
-}
-*/
-
 
 .scene-1 {
     width: 100%;
@@ -104,13 +58,13 @@ aside:hover {
 }
 
 .box-scene-1 {
-    width: 100%;
+    width: 550px;
     height: 100%;
     margin-left: 163px;
 }
 
 .logo-sports {
-    width: 100%;
+    width: 100px;
     height: auto;
     margin-top: 61px;
 }
@@ -180,7 +134,7 @@ aside:hover {
 }
 
 .box-text-scene-2 {
-    width: 426px;
+    width: 650px;
     height: 100%;
 }
 
@@ -191,47 +145,36 @@ aside:hover {
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-
     margin-top: 133px;
 }
 
 .title-scene-2 {
     width: 426px;
     height: 37px;
-
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
     color: #333333;
-
     margin-top: 27px;
 }
 
 .text-scene-2 {
     width: 407px;
     height: 185px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
     color: #4F4F4F;
-
-    margin-top: 91px;
+    margin-top: 27px;
 }
 
 .blue-text-2-scene-2 {
-    width: 582px;
+    width: 100%;
     height: 22px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-
     margin-top: 22px;
 }
 
@@ -240,9 +183,10 @@ aside:hover {
 }
 
 .scene-3 {
-    width: 1440px;
+    width: 100%;
     height: 716px;
     background-image: url(../images/back-scene-3.jpg);
+    background-repeat: no-repeat;
 }
 
 .box-text-scene-3 {
@@ -252,27 +196,21 @@ aside:hover {
 }
 
 .blue-text-1-scene-3 {
-    width: 100%;
+    width: 120px;
     height: 22px;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-
-    margin-top: 133px;
+    margin-top: 217px;
 }
 
 .title-scene-3 {
     width: 426px;
     height: 37px;
-
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
-    color: #333333;
-
     margin-top: 27px;
 }
 
@@ -285,21 +223,17 @@ aside:hover {
     font-size: 16px;
     line-height: 23px;
     color: #4F4F4F;
-
-    margin-top: 91px;
+    margin-top: 27px;
 }
 
 .blue-text-2-scene-3 {
-    width: 582px;
+    width: 120px;
     height: 22px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
     color: #00ADEE;
-
-    margin-top: 22px;
+    margin-top: 54px;
 }
 
 .box-2-scene-3-max480 {
@@ -309,23 +243,19 @@ aside:hover {
 .scene-4 {
     flex-flow: row wrap;
     background-image: url(../images/back-scene-4.jpg);
-    width: 1440px;
+    width: 100%;
     height: 735px;
-    /*padding: 76px 0 0 164px;*/
 }
 
 .title-scene-4 {
     justify-content: center;
     width: 100%;
     height: 37px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
     color: #FFFFFF;
     margin: 76px 0 54px;
-    /*padding-left: 301px;*/
 }
 
 .container-scene-4 {
@@ -334,18 +264,6 @@ aside:hover {
     height: auto;
 
 }
-
-/*.box-scene-4 {
-    width: 311px;
-    height: 189px;
-}
-
-#box-2-scene-4,
-#box-5-scene-4,
-#box-8-scene-4 {
-    margin-left: 100px;
-    margin-right: 80px;
-}*/
 
 .icon-box-scene-4 {
     width: 40px;
@@ -392,8 +310,6 @@ aside:hover {
 .text-box-scene-4 {
     width: 311px;
     height: 116px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
@@ -405,7 +321,7 @@ aside:hover {
 }
 
 .scene-5 {
-    width: 1440px;
+    width: 100%;
     height: 431px;
 }
 
@@ -413,8 +329,6 @@ aside:hover {
     justify-content: center;
     width: 100%;
     height: 37px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
@@ -436,19 +350,13 @@ aside:hover {
 .box-full-scene-5 {
     width: 309px;
     height: 161px;
-    /*margin-right: 36px;*/
 }
-
-/*.box-scene-5 {
-    align-items:baseline;
-}*/
 
 #box-1-scene-5 {
     width: 132px;
     height: 161px;
     background-image: url(../svg/box-1-scene-5.svg);
     background-position: right;
-    /*margin-right: 36px;*/
 }
 
 #box-2-scene-5 {
@@ -481,15 +389,15 @@ aside:hover {
 
 .btn-left-scene-5 {
     background-image: url(../svg/btn-left-scene-5.svg);
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-position: left;
 }
 
 .btn-right-scene-5 {
     background-image: url(../svg/btn.right-scene-5.svg);
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-position: left;
 }
 
@@ -511,7 +419,7 @@ aside:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     height: 278px;
     background: #FAFAFA;
 }
@@ -519,8 +427,6 @@ aside:hover {
 .title-scene-6 {
     width: 320px;
     height: 37px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 37px;
@@ -555,7 +461,7 @@ aside:hover {
 }
 
 .scene-7 {
-    width: 1440px;
+    width: 100%;
     height: 483px;
     background: #F4F6F9;
     background-position: left;
@@ -572,15 +478,9 @@ aside:hover {
 .title-scene-7 {
     width: 554px;
     height: 37px;
-    left: 743px;
-    top: 3522px;
     font-size: 28px;
     line-height: 37px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
-    display: flex;
-    align-items: flex-end;
     letter-spacing: 0.03em;
     color: #333333;
     margin-top: 100px;
@@ -611,17 +511,19 @@ aside:hover {
     display: none;
 }
 
+
 footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 163px;
-    width: 1440px;
+    width: 100%;
     height: 127px;
     background: #00ADEE;
 }
 
 footer
 .logo-sports {
+    width: 100px;
     margin-top: 0;
 }
 
@@ -631,13 +533,11 @@ footer
 
 .list-footer {
     justify-content: space-between;
-    width: 375px;
+    width: 390px;
     height: 22px;
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 21px;
@@ -668,6 +568,8 @@ footer
 .icon-instagram-footer {
     background-image: url(../icon/icon-instagram.svg);
 }
+
+
 
 
 

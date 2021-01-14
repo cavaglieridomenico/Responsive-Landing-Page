@@ -1,11 +1,5 @@
 body {
-    /*width: 360px;*/
     width: 100%;
-
-}
-
-aside {
-    display: none;
 }
 
 .scene-1 {
@@ -16,14 +10,13 @@ aside {
 
 .box-scene-1 {
     align-items: center;
-    width: 100%;
     margin-left: 0;
+    width: 100%;
 }
 
 .logo-sports {
     justify-content: center;
     margin-top: 32px;
-
 }
 
 .title-scene-1 {
@@ -57,10 +50,10 @@ aside {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /*width: 360px;*/
     width: 100%;
-    height: 468px;
+    height: auto;
     background-image: none;
+    padding: 0 20px;
 }
 
 .box-left-scene-2-desktop {
@@ -68,38 +61,30 @@ aside {
 }
 
 .box-text-scene-2 {
-    /*justify-content: flex-start;
-    width: 320px;
-    justify-content: center;*/
     width: 100%;
-    /*align-items: center;*/
+    align-items: center;
     height: auto;
 }
 
 .blue-text-1-scene-2 {
-    /*width: 320px;*/
+    justify-content: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     text-align: center;
     margin-top: 54px;
 }
 
 .title-scene-2 {
-    /*width: 320px;*/
     justify-content: center;
     text-align: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     height: 74px;
     text-align: center;
 }
 
 .text-scene-2 {
-    /*width: 320px;*/
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     height: 208px;
     text-align: center;
@@ -107,9 +92,7 @@ aside {
 }
 
 .blue-text-2-scene-2 {
-    /*width: 320px;*/
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     height: 22px;
     text-align: center;
@@ -152,60 +135,50 @@ aside {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /*width: 360px;*/
     width: 100%;
     height: auto;
     background-image: none;
+    padding: 0 20px;
 }
 
 .box-text-scene-3 {
-    /*justify-content: flex-start;
-    width: 320px;*/
     justify-content: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     height: 100%;
     margin-left: 0;
 }
 
 .blue-text-1-scene-3 {
-    /*width: 320px;*/
+    justify-content: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
-    text-align: center;
-    margin-top: 54px;
+    margin-top: 62px;
 }
 
 .title-scene-3 {
-    /*width: 320px;*/
     justify-content: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
-    height: 74px;
+    height: 27px;
     
 }
 
 .text-scene-3 {
-    /*width: 320px;*/
+    justify-content: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     height: 208px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 27px;
 }
 
 .blue-text-2-scene-3 {
-    /*width: 320px;*/
+    justify-content: center;
     width: 100%;
-    padding: 0 20px;
     max-width: 600px;
     height: 22px;
-    text-align: center;
-    margin-top: 19px;
+    margin-top: 25px;
 }
 
 .box-2-scene-3-max480 {
@@ -221,10 +194,10 @@ aside {
     justify-content: flex-start;
     align-items: center;
     background-image: none;
-    width: 360px;
+    width: 100%;
     height: auto;
     background: #FAFAFA;
-    padding: 0;
+    padding: 0 20px;
 }
 
 .title-scene-4 {
@@ -232,8 +205,7 @@ aside {
     height: 74px;
     text-align: center;
     color: #333333;
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin: 40px 0 0 0;
     padding-left: 0;
 }
 
@@ -305,7 +277,7 @@ aside {
 .text-box-scene-4 {
     width: 311px;
     height: auto;
-    text-align: center;
+    text-align:center;
     color: #4F4F4F;
 }
 
@@ -316,7 +288,7 @@ aside {
 .scene-5 {
     flex-flow: column nowrap;
     align-items: center;
-    width: 360px;
+    width: 100%;
     height: 465px;
 }
 
@@ -342,15 +314,13 @@ aside {
     margin-top: 39px;
 }
 
-.btn-right-scene-5 {
-    background-image: url(../svg/btn.right-scene-5.svg);
+.container-btn-scene-5 {
     position: absolute;
-    background-position: left;
-    width: 60px;
-    height: 70px;
-    left: 300px;
-    top: 245px;
-    background-position: left;
+    justify-content: flex-end;
+    width: 360px;
+    height: auto;
+    top: 50px;
+    padding: 0;
 }
 
 #box-1-scene-5,
@@ -366,7 +336,7 @@ aside {
 }
 
 .scene-6 {
-    width: 360px;
+    width: 100%;
     height: 409px;
     background: #FAFAFA;
 }
@@ -446,9 +416,10 @@ aside {
 }
 
 .scene-7 {
-    width: 360px;
+    width: 100%;
     height: 700px;
     background-image: none;
+    padding: 0 20px;
 }
 
 .box-scene-7 {
@@ -459,7 +430,9 @@ aside {
 }
 
 .title-scene-7 {
-    width: 320px;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
     height: 74px;
     font-size: 28px;
     line-height: 37px;
@@ -469,7 +442,8 @@ aside {
 }
 
 .text-scene-7 {
-    width: 309.03px;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     font-size: 16px;
     line-height: 25px;
@@ -488,8 +462,8 @@ aside {
     display: flex;
     background-image: url(../svg/back-scene7-max480.svg);
     background-size: cover;
-    width: 360px;
-    height: 261px;
+    width: 100%;
+    height: 100%;
     margin-top: 46px;
 }
 
@@ -497,9 +471,9 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 360px;
+    width: 100%;
     height: 210px;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 footer
@@ -516,11 +490,14 @@ footer
     width: 321px;
     height: 22px;
     margin-top: 34px;
+    order: 3;
 } 
 
 #social-footer-desktop {
-    display: none;
+    margin-top: 11px;
+    order: 2;
 }
+
 
 
 
