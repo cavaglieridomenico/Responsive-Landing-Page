@@ -527,10 +527,6 @@ footer
     margin-top: 0;
 }
 
-#social-footer-max480 {
-    display: none;
-}
-
 .list-footer {
     justify-content: space-between;
     width: 390px;
