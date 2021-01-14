@@ -64,8 +64,9 @@ a:visited {
 }
 
 .logo-sports {
+    background-image: url(../svg/logo-sports.svg);
     width: 100px;
-    height: auto;
+    height: 32px;
     margin-top: 61px;
 }
 
@@ -523,7 +524,9 @@ footer {
 
 footer
 .logo-sports {
+    background-image: url(../svg/logo-sports-white.svg);
     width: 100px;
+    height: 32px;
     margin-top: 0;
 }
 
