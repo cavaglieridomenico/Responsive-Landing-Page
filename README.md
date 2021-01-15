@@ -1,6 +1,6 @@
 # Sports App
 
-INFORMATION<br>
+<strong>INFORMATION</strong><br>
 Web application intended primarily for mobile devices.<br>
 The responsiveness features were made entirely through CSS Flebbox, using two style sheets.<br>
 The project has faithfully created the mockup provided, at the given dimensions: 1440px for the desktop version and 360px for the mobile version.<br>
